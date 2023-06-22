@@ -7,8 +7,8 @@ body {
 }
 
 .button-primary {
-  @apply bg-primary text-gray-100 hover:bg-primary-lighter px-20 py-5 rounded-lg text-md duration-300;
+  @apply rounded-lg bg-primary px-20  py-5 text-md text-gray-100 transition-colors duration-200 hover:bg-primary-lighter;
 }
 .button-secondary {
-  @apply bg-secondary text-gray-100 hover:bg-secondary-light px-20 py-5 rounded-lg text-md;
+  @apply rounded-lg bg-secondary px-20 py-5 text-md text-gray-100 hover:bg-secondary-light;
 }
