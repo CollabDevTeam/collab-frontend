@@ -7,8 +7,16 @@ body {
 }
 
 .button-primary {
-  @apply rounded-lg bg-primary px-20  py-5 text-md text-gray-100 transition-colors duration-200 hover:bg-primary-lighter;
+  @apply rounded-lg bg-primary px-20  py-5 text-md text-gray-100 duration-200 hover:bg-primary-lighter;
 }
 .button-secondary {
-  @apply rounded-lg bg-secondary px-20 py-5 text-md text-gray-100 hover:bg-secondary-light;
+  @apply rounded-lg bg-secondary px-20 py-5 text-md text-gray-100 duration-200 hover:bg-secondary-light;
+}
+
+.dark-active-link {
+  @apply text-primary-extra-lighter;
+}
+
+.light-active-link {
+  @apply text-primary-light;
 }

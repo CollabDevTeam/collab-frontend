@@ -1,14 +1,6 @@
 <template>
-  <div>
-    <header class="flex justify-between">
-      <nuxt-link to="/"
-        ><img
-          src="header_logo.svg"
-          alt="Collab logo"
-        />
-      </nuxt-link>
-      <nav>hello</nav>
-    </header>
+  <div class="grid grid-rows-[80px_minmax(80vh,_1fr)_347px]">
+    <layout-header />
     <slot />
     <footer></footer>
   </div>

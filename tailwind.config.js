@@ -10,6 +10,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        sm: '300px',
+        md: '600px',
+        lg: '1000px',
+        xl: '1280px',
+      },
       fontFamily: {
         primary: ['Poppins', 'sans-serif'],
       },
