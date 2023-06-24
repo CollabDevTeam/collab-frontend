@@ -1,0 +1,27 @@
+[
+  {
+    "id": "about",
+    "label": "About",
+    "link": "/about"
+  },
+  {
+    "id": "createProject",
+    "label": "Create a project",
+    "link": "/create-project"
+  },
+  {
+    "id": "browseProjects",
+    "label": "Browse projects",
+    "link": "/browse-project"
+  },
+  {
+    "id": "learn",
+    "label": "Learn",
+    "link": "/learn"
+  },
+  {
+    "id": "user",
+    "label": "",
+    "link": ""
+  }
+]

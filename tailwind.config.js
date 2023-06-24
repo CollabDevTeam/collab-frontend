@@ -54,6 +54,9 @@ module.exports = {
         tertiary: '#AE2780',
         grey: '#AE2780',
       },
+      maxWidth: {
+        main: '1350px',
+      },
     },
   },
   plugins: [],

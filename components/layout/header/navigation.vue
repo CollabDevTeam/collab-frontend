@@ -32,6 +32,7 @@
 </template>
 
 <script setup lang="ts">
+  import navigation from '../../../resources/navigation.json';
   const user = ref({name: 'Jack Landma'});
   const jwt = useCookie('jwt');
   const isMobileView = ref();
@@ -39,45 +40,6 @@
   defineProps<{
     isMenuOpen: boolean;
   }>();
-
-  interface NavLink {
-    label: string;
-    link: string;
-    id: string;
-  }
-
-  const navigation: NavLink[] = [
-    // {
-    //   id: 'about',
-    //   label: 'HOME',
-    //   link: '/',
-    // },
-    {
-      id: 'about',
-      label: 'About',
-      link: '/about',
-    },
-    {
-      id: 'createProject',
-      label: 'Create a project',
-      link: '/create-project',
-    },
-    {
-      id: 'browseProjects',
-      label: 'Browse projects',
-      link: '/browse-project',
-    },
-    {
-      id: 'learn',
-      label: 'Learn',
-      link: '/learn',
-    },
-    {
-      id: 'user',
-      label: '',
-      link: '',
-    },
-  ];
 
   const filteredNavigation = computed(() => {
     return navigation.map((item) => {

@@ -1,5 +1,7 @@
 <template>
-  <div class="grid min-h-screen grid-rows-[80px_1fr_min(347px)]">
+  <div
+    class="grid min-h-screen grid-rows-[80px_1fr_minmax(347px,_max-content)] overflow-hidden"
+  >
     <layout-header />
     <slot />
     <layout-footer />
