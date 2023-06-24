@@ -20,14 +20,14 @@ module.exports = {
         primary: ['Poppins', 'sans-serif'],
       },
       fontSize: {
-        primary: ['40px', '60px'],
-        secondary: ['20px', '30px'],
-        xs: ['24px', '46px'],
-        sm: ['30px', '45px'],
-        md: ['18px', '24px'],
-        lg: ['16px', '24px'],
-        xl: ['14px', '21px'],
-        '2xl': ['12px', '24px'],
+        xs: ['12px', '24px'],
+        sm: ['14px', '21px'],
+        md: ['16px', '24px'],
+        lg: ['18px', '24px'],
+        xl: ['24px', '46px'],
+        '2xl': ['30px', '45px'],
+        '3xl': ['20px', '30px'],
+        '4xl': ['40px', '60px'],
       },
       colors: {
         primary: {

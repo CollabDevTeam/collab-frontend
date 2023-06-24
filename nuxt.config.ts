@@ -13,7 +13,7 @@ export default defineNuxtConfig({
       '@nuxtjs/google-fonts',
       {
         families: {
-          Poppins: true,
+          Poppins: ['300', '400', '500', '700'],
           download: true,
           inject: true,
         },

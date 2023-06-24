@@ -1,8 +1,8 @@
 <template>
-  <div class="grid grid-rows-[80px_minmax(80vh,_1fr)_347px]">
+  <div class="grid min-h-screen grid-rows-[80px_1fr_min(347px)]">
     <layout-header />
     <slot />
-    <footer></footer>
+    <layout-footer />
   </div>
 </template>
 
