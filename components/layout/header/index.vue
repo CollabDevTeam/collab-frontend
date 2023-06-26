@@ -1,30 +1,28 @@
 <template>
-  <header class="mx-auto w-full gap-10 overflow-hidden px-8 py-6">
-    <div
-      class="flex max-w-[100vw] items-center justify-between overflow-hidden"
-    >
-      <nuxt-link to="/"
-        ><img
-          src="images/header_logo.svg"
-          alt="Collab logo"
-          class="w-24 md:w-32"
-        />
-      </nuxt-link>
-      <button
-        class="block hover:cursor-pointer lg:hidden"
-        @click="toggleMenu"
-      >
-        <Icon
-          name="material-symbols:menu-rounded"
-          size="2rem"
-        />
-      </button>
-      <layout-header-navigation
-        ref="navRef"
-        :is-menu-open="isMenuOpen"
-        @close-menu="toggleMenu"
+  <header
+    class="mx-auto flex w-full max-w-[100vw] items-center justify-between gap-10 overflow-x-hidden overflow-y-visible px-8 py-6 lg:max-w-main"
+  >
+    <nuxt-link to="/"
+      ><img
+        src="images/header_logo.svg"
+        alt="Collab logo"
+        class="w-24 md:w-32"
       />
-    </div>
+    </nuxt-link>
+    <button
+      class="block hover:cursor-pointer lg:hidden"
+      @click="toggleMenu"
+    >
+      <Icon
+        name="material-symbols:menu-rounded"
+        size="2rem"
+      />
+    </button>
+    <layout-header-navigation
+      ref="navRef"
+      :is-menu-open="isMenuOpen"
+      @close-menu="toggleMenu"
+    />
   </header>
 </template>
 

@@ -1,7 +1,7 @@
 <template>
   <nav
-    class="z-100 absolute h-screen w-full max-w-[300px] bg-primary p-16 duration-300 ease-in-out lg:static lg:h-auto lg:max-w-fit lg:bg-transparent"
-    :class="[isMenuOpen ? 'right-0 top-0' : '-right-full top-0']"
+    class="styles absolute top-0 z-50 h-screen w-full max-w-[300px] bg-primary p-16 duration-300 ease-in-out lg:static lg:h-auto lg:max-w-fit lg:bg-transparent"
+    :class="[isMenuOpen ? 'right-0' : '-right-full']"
   >
     <ul
       class="relative flex w-full flex-col items-end gap-5 text-gray-100 lg:flex-row lg:gap-10 lg:text-black"

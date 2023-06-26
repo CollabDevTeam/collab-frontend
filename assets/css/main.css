@@ -10,16 +10,15 @@
   padding: 0;
 }
 
-html,
 body {
-  @apply w-full max-w-[100vw] overflow-hidden font-primary;
+  @apply font-primary;
 }
 
 .button-primary {
-  @apply rounded-lg bg-primary px-20  py-5 text-md text-gray-100 duration-200 hover:bg-primary-lighter;
+  @apply rounded-lg bg-primary px-10 py-5  text-md text-gray-100 duration-200 hover:bg-primary-lighter md:px-20;
 }
 .button-secondary {
-  @apply rounded-lg bg-secondary px-20 py-5 text-md text-gray-100 duration-200 hover:bg-secondary-light;
+  @apply rounded-lg bg-secondary px-10 py-5 text-md text-gray-100 duration-200 hover:bg-secondary-light md:px-20;
 }
 
 .dark-active-link {

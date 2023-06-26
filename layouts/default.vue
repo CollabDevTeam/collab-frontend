@@ -1,6 +1,6 @@
 <template>
   <div
-    class="grid min-h-screen grid-rows-[80px_1fr_minmax(347px,_max-content)] overflow-hidden"
+    class="relative grid min-h-screen grid-rows-[80px_1fr_minmax(347px,_max-content)] overflow-x-hidden overflow-y-scroll"
   >
     <layout-header />
     <slot />
@@ -9,5 +9,3 @@
 </template>
 
 <script setup lang="ts"></script>
-
-<style scoped></style>
