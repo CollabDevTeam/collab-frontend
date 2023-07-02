@@ -35,10 +35,10 @@
   import navigation from '../../../resources/navigation.json';
   const user = ref({name: 'Jack Landma'});
   const jwt = useCookie('jwt');
-  const isMobileView = ref();
 
   defineProps<{
     isMenuOpen: boolean;
+    isMobileView: boolean;
   }>();
 
   const filteredNavigation = computed(() => {
@@ -54,17 +54,6 @@
       }
       return item;
     });
-  });
-
-  onMounted(() => {
-    isMobileView.value = window.innerWidth < 1000;
-    window.addEventListener('resize', () => {
-      isMobileView.value = window.innerWidth < 1000;
-    });
-  });
-
-  onUnmounted(() => {
-    window.removeEventListener('resize', () => {});
   });
 </script>
 

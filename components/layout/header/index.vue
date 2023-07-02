@@ -21,6 +21,7 @@
     <layout-header-navigation
       ref="navRef"
       :is-menu-open="isMenuOpen"
+      :is-mobile-view="isMobileView"
       @close-menu="toggleMenu"
     />
   </header>
@@ -31,17 +32,30 @@
 
   const navRef = ref(null);
   const isMenuOpen = ref(false);
+  const isMobileView = ref();
 
   const toggleMenu = () => {
-    isMenuOpen.value = !isMenuOpen.value;
+    if (isMobileView.value) {
+      isMenuOpen.value = !isMenuOpen.value;
+    }
   };
 
   onClickOutside(navRef, () => {
-    isMenuOpen.value = false;
+    if (isMobileView.value) {
+      isMenuOpen.value = false;
+    }
   });
 
   onMounted(() => {
     isMenuOpen.value = window.innerWidth > 1000;
+    isMobileView.value = window.innerWidth < 1000;
+    window.addEventListener('resize', () => {
+      isMobileView.value = window.innerWidth < 1000;
+    });
+  });
+
+  onUnmounted(() => {
+    window.removeEventListener('resize', () => {});
   });
 </script>
 
