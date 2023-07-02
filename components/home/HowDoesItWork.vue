@@ -58,17 +58,17 @@
       },
       cards: [
         {
-          image: 'images/home_2_1.png',
+          image: '/images/home_2_1.png',
           title: 'POST A PROJECT',
           text: 'you have an idea for a project? You need people to help you make it a reality?',
         },
         {
-          image: 'images/home_2_2.png',
+          image: '/images/home_2_2.png',
           title: 'BUILD A TEAM',
           text: 'Assemble a team of skilled professionals to make your idea into a product',
         },
         {
-          image: 'images/home_2_3.png',
+          image: '/images/home_2_3.png',
           title: 'COLLABORATE',
           text: 'Start working together and learn from each other as you make your idea into a product',
         },
@@ -86,17 +86,17 @@
       },
       cards: [
         {
-          image: 'images/home_3_1.png',
+          image: '/images/home_3_1.png',
           title: 'SELECT A PROJECT',
           text: 'Browse the many interesting projects posted and select what you’d like to work on',
         },
         {
-          image: 'images/home_3_2.png',
+          image: '/images/home_3_2.png',
           title: 'JOIN A TEAM',
           text: 'Apply to join other skilled professionals and become a part of the team',
         },
         {
-          image: 'images/home_3_3.png',
+          image: '/images/home_3_3.png',
           title: 'COLLABORATE',
           text: 'Start working together and learn from each other as you make your idea into a product',
         },

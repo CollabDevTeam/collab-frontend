@@ -8,7 +8,7 @@
         class=""
       >
         <img
-          src="images/footer_logo.svg"
+          src="/images/footer_logo.svg"
           alt="Collab logo"
         />
       </nuxt-link>
@@ -52,21 +52,21 @@
 
   const socialLinks: SocialLinks[] = [
     {
-      src: 'icons/facebook.svg',
+      src: '/icons/facebook.svg',
       link: '#',
       alt: 'A link to owr facebook page',
     },
     {
-      src: 'icons/instagram.svg',
+      src: '/icons/instagram.svg',
       link: '#',
       alt: 'A link to our instagram page',
     },
     {
-      src: 'icons/linkedin.svg',
+      src: '/icons/linkedin.svg',
       link: '#',
       alt: 'A link to our linkedin page',
     },
-    {src: 'icons/medium.svg', link: '#', alt: 'A link to our medium page'},
+    {src: '/icons/medium.svg', link: '#', alt: 'A link to our medium page'},
   ];
 </script>
 

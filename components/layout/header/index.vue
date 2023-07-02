@@ -4,7 +4,7 @@
   >
     <nuxt-link to="/"
       ><img
-        src="images/header_logo.svg"
+        src="/images/header_logo.svg"
         alt="Collab logo"
         class="w-24 md:w-32"
       />
