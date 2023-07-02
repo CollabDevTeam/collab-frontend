@@ -1,6 +1,7 @@
 <template>
   <div>
     <home-hero />
+    <home-HowDoesItWork />
   </div>
 </template>
 

@@ -24,7 +24,7 @@ module.exports = {
         sm: ['14px', '21px'],
         md: ['16px', '24px'],
         lg: ['18px', '24px'],
-        xl: ['24px', '46px'],
+        xl: ['24px', '36px'],
         '2xl': ['30px', '45px'],
         '3xl': ['20px', '30px'],
         '4xl': ['40px', '60px'],
