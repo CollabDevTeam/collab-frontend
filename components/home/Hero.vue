@@ -1,6 +1,6 @@
 <template>
   <section
-    class="grid min-h-[90vh] place-items-center bg-[url(images/home_hero.png)] bg-cover bg-center bg-no-repeat"
+    class="grid min-h-[90vh] place-items-center bg-[url(/images/home_hero.png)] bg-cover bg-center bg-no-repeat"
   >
     <div
       class="flex flex-col gap-6 bg-[#ffffff9c] px-5 py-5 text-center text-primary backdrop-blur-sm md:px-28 md:py-8"
