@@ -1,6 +1,6 @@
 <template>
   <header
-    class="mx-auto flex w-full max-w-[100vw] items-center justify-between gap-10 overflow-x-hidden overflow-y-visible px-8 py-6 lg:max-w-main"
+    class="mx-auto flex w-full max-w-[100vw] items-center justify-between gap-10 overflow-x-hidden overflow-y-visible px-8 lg:max-w-main"
   >
     <nuxt-link to="/"
       ><img
