@@ -2,12 +2,12 @@
   <section class="mx-auto max-w-main">
     <h2>Why Collab?</h2>
     <div
-      class="grid grid-cols-1 place-items-center text-primary md:grid-cols-2 lg:grid-cols-3"
+      class="place-items-center text-primary flex flex-wrap justify-center"
     >
       <div
         v-for="item in cards"
         :key="item.title"
-        class="flex max-w-[360px] flex-col items-center gap-4 p-6 text-center"
+        class="max-w-[360px] min-h-[260px] flex flex-col justify-between items-center p-6 text-center"
       >
         <img
           :src="item.image"
