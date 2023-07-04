@@ -1,6 +1,6 @@
 <template>
   <header
-    class="mx-auto flex w-full max-w-[100vw] items-center justify-between gap-10 overflow-x-hidden overflow-y-visible px-8 lg:max-w-main"
+    class="mx-auto flex w-full max-w-[100vw] items-center justify-between gap-10 overflow-x-hidden px-8 lg:max-w-main"
   >
     <nuxt-link to="/"
       ><img
@@ -32,7 +32,7 @@
 
   const navRef = ref(null);
   const isMenuOpen = ref(false);
-  const isMobileView = ref();
+  const isMobileView = ref(false);
 
   const toggleMenu = () => {
     if (isMobileView.value) {

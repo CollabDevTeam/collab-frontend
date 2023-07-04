@@ -1,11 +1,7 @@
 <template>
   <section class="px-5 py-14">
     <div class="mx-auto max-w-main text-center text-primary">
-      <h2
-        class="mx-auto w-fit border-b-[3px] border-primary text-2xl md:text-4xl"
-      >
-        How does it work?
-      </h2>
+      <h2>How does it work?</h2>
       <div
         v-for="item in sections"
         :key="item.subtitle.text"

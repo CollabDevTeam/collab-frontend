@@ -32,3 +32,7 @@ body {
 li > a {
   @apply duration-200 hover:opacity-60;
 }
+
+h2 {
+  @apply mx-auto w-fit border-b-[3px] border-primary text-2xl text-primary md:text-4xl;
+}

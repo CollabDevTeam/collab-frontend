@@ -2,6 +2,7 @@
   <div>
     <home-hero />
     <home-HowDoesItWork />
+    <home-whyCollab />
   </div>
 </template>
 
