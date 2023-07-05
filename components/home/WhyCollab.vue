@@ -1,19 +1,17 @@
 <template>
   <section class="mx-auto max-w-main">
     <h2>Why Collab?</h2>
-    <div
-      class="place-items-center text-primary flex flex-wrap justify-center"
-    >
+    <div class="flex flex-wrap place-items-center justify-center text-primary">
       <div
         v-for="item in cards"
         :key="item.title"
-        class="max-w-[360px] min-h-[260px] flex flex-col justify-between items-center p-6 text-center"
+        class="flex min-h-[200px] max-w-[360px] flex-col items-center justify-between p-6 text-center md:min-h-[260px]"
       >
         <img
           :src="item.image"
           :alt="item.alt"
         />
-        <h4 class="text-xl">{{ item.title }}</h4>
+        <h4 class="text-lg md:text-xl">{{ item.title }}</h4>
         <p class="font-light">{{ item.text }}</p>
       </div>
     </div>
