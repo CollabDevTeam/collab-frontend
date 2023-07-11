@@ -1,7 +1,8 @@
 <template>
   <nav
-    class="absolute top-0 z-50 h-screen w-full max-w-[300px] bg-primary px-14 py-20 duration-300 ease-in-out lg:relative lg:h-fit lg:max-w-fit lg:bg-transparent lg:p-0"
+    class="fixed top-0 z-50 h-screen w-full max-w-[300px] bg-primary px-14 py-20 duration-300 ease-in-out lg:relative lg:h-fit lg:max-w-fit lg:bg-transparent lg:p-0"
     :class="[isMenuOpen ? 'right-0' : '-right-full']"
+    ref="nav"
   >
     <button
       v-if="isMobileView"
@@ -24,6 +25,7 @@
           :to="item.link"
           class="whitespace-nowrap"
           :activeClass="isMobileView ? 'dark-active-link' : 'light-active-link'"
+          @click="$emit('close-menu')"
           >{{ item.label }}</nuxt-link
         >
       </li>
@@ -35,6 +37,7 @@
   import navigation from '../../../resources/navigation.json';
   const user = ref({name: 'Jack Landma'});
   const jwt = useCookie('jwt');
+  const nav = ref(null);
 
   defineProps<{
     isMenuOpen: boolean;

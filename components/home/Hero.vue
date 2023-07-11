@@ -16,10 +16,14 @@
         class="mx-auto grid w-full max-w-[870px] grid-cols-1 gap-4 lg:grid-cols-2"
       >
         <div class="lg:justify-self-start">
-          <button class="button-secondary uppercase">create a project</button>
+          <button class="button-secondary uppercase">
+            <nuxt-link to="/create-project">create a project</nuxt-link>
+          </button>
         </div>
         <div class="lg:justify-self-end">
-          <button class="button-primary uppercase">join a project</button>
+          <button class="button-primary uppercase">
+            <nuxt-link to="/browse-project">join a project</nuxt-link>
+          </button>
         </div>
       </div>
     </div>
