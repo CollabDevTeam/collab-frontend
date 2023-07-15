@@ -3,6 +3,7 @@
     <home-hero />
     <home-HowDoesItWork />
     <home-whyCollab />
+    <profile-Modal/>
   </div>
 </template>
 
